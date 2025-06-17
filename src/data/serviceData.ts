@@ -6,7 +6,7 @@ export const serviceData: ServiceProps = {
         "At Traviesas, our goal is for you to love your smile and enjoy all the social and health benefits that come with having a healthy, beautiful smile. Discover more about the Traviesas Smile Makeover.",
     services: [
         {
-            imageUrl: "/src/assets/dentalServices/preventive.jpg",
+            imageUrl: "/img/dentalServices/preventive.jpg",
             imageAlt: "Ilustration of Preventive Dentistry",
             title: "Preventive Dentistry",
             description:
@@ -15,7 +15,7 @@ export const serviceData: ServiceProps = {
             buttonText: "Ask a Question",
         },
         {
-            imageUrl: "/src/assets/dentalServices/smile.jpg",
+            imageUrl: "/img/dentalServices/smile.jpg",
             imageAlt: "Woman smiling with perfect teeth",
             title: "Smile Makeovers",
             description:
@@ -24,7 +24,7 @@ export const serviceData: ServiceProps = {
             buttonText: "Ask a Question",
         },
         {
-            imageUrl: "/src/assets/dentalServices/orthodontics.jpg",
+            imageUrl: "/img/dentalServices/orthodontics.jpg",
             imageAlt: "Person wearing clear aligners",
             title: "Orthodontics",
             description:
@@ -33,7 +33,7 @@ export const serviceData: ServiceProps = {
             buttonText: "Ask a Question",
         },
         {
-            imageUrl: "/src/assets/dentalServices/ba.jpg",
+            imageUrl: "/img/dentalServices/ba.jpg",
             imageAlt: "Teeth before and after dental restorations",
             title: "Dental Restorations",
             description:

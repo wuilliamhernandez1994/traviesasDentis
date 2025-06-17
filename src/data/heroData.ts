@@ -3,7 +3,7 @@ import type { HeroProps } from "../interfaces";
 export const heroData: HeroProps[] = [
     {
         backgroundClass:
-            'bg-[url("/src/assets/hero/start_transformation.jpg")] bg-[position:top_center]',
+            'bg-[url("/img/hero/start_transformation.jpg")] bg-[position:top_center]',
         wrapperClass: "py-5 lg:py-25",
         title: "WELCOME TO TRAVIESAS",
         titleClass:
@@ -29,7 +29,7 @@ export const heroData: HeroProps[] = [
     },
     {
         backgroundClass:
-            'bg-[url("/src/assets/hero/we_are_open.jpg")] bg-[position:top_center]',
+            'bg-[url("/img/hero/we_are_open.jpg")] bg-[position:top_center]',
         wrapperClass: "py-5 lg:py-55",
         title: "WE ARE OPEN!",
         titleClass:
@@ -49,7 +49,7 @@ export const heroData: HeroProps[] = [
     },
     {
         backgroundClass:
-            'bg-[url("/src/assets/hero/cg_smile_home.jpg")] bg-[position:top_center]',
+            'bg-[url("/img/hero/cg_smile_home.jpg")] bg-[position:top_center]',
         wrapperClass: "py-5 lg:py-44",
         title: "START YOUR SMILE TRANSFORMATION",
         titleClass:
@@ -69,7 +69,7 @@ export const heroData: HeroProps[] = [
     },
     {
         backgroundClass:
-            'bg-[url("/src/assets/dentalServices/smile.jpg")] bg-[position:bottom_center]',
+            'bg-[url("/img/dentalServices/smile.jpg")] bg-[position:bottom_center]',
         wrapperClass: "py-5 lg:py-25",
         title: "Smile Makeover & Smile Design at Traviesas",
         titleClass:
@@ -95,7 +95,7 @@ export const heroData: HeroProps[] = [
     },
     {
         backgroundClass:
-            'bg-[url("/src/assets/hero/love.jpg")] bg-[position:bottom_center]',
+            'bg-[url("/img/hero/love.jpg")] bg-[position:bottom_center]',
         wrapperClass: "py-5 lg:py-30",
         title: "Love Your Smile!",
         titleClass:

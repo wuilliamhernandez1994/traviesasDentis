@@ -1,7 +1,8 @@
 import type { HeaderProps } from "../interfaces";
 
 export const headerData: HeaderProps = {
-    logo: "src/assets/logoTraviesas.png",
+    logo: "img/logoTraviesas.png",
+    // logo: "img/logoTraviesas.png",
     navOptions: [
         {
             label: "Smile Makeover",
