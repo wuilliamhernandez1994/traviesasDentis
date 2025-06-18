@@ -3,8 +3,8 @@ import type { FooterData } from "../interfaces";
 export const footerData: FooterData = {
     companyName: "Traviesas Dental Care",
     contactInfo: {
-        address: "1200 W 64 Ter",
-        city: "Hialeah, FL 33012",
+        address: "508 E 49th St",
+        city: "Hialeah, FL, United States, 33013",
         phone: "305 826-8980",
         fax: "305 826-8980",
     },
