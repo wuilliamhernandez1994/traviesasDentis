@@ -6,6 +6,7 @@ import {
     FaTiktok,
     // FaPinterestP,
 } from "react-icons/fa";
+import { SiGooglemaps } from "react-icons/si";
 import type { FooterData } from "../interfaces";
 
 interface FooterProps {
@@ -30,8 +31,8 @@ const SocialIcon = ({
             return <FaTiktok {...iconProps} />;
         case "linkedin":
             return <FaLinkedinIn {...iconProps} />;
-        // case "pinterest":
-        //     return <FaPinterestP {...iconProps} />;
+        case "googlemaps":
+            return <SiGooglemaps {...iconProps} />;
         default:
             return null;
     }

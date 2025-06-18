@@ -24,10 +24,15 @@ export const footerData: FooterData = {
             url: "https://www.tiktok.com/@traviesasdental?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExRXMza0Y3NTAweDFOb0w1UgEelhv7kjrkYP6HJyeEP9wW6jkZB9oDsdXSd4Ma63PXsZFB_kY5IhosSomhL78_aem_Neslynjj5QoCt5lX3jUeug",
             icon: "tiktok",
         },
+        // {
+        //     name: "LinkedIn",
+        //     url: "https://www.linkedin.com/company/traviesasdentalcare/",
+        //     icon: "linkedin",
+        // },
         {
-            name: "LinkedIn",
-            url: "https://www.linkedin.com/company/traviesasdentalcare/",
-            icon: "linkedin",
+            name: "GoogleMaps",
+            url: "https://maps.app.goo.gl/nd8i9bQCUjxtQa9U9",
+            icon: "googlemaps",
         },
     ],
     sections: [
