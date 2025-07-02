@@ -35,4 +35,16 @@ export const contentSectionsData: ContentSectionProps[] = [
         titleColor: "text-pink-600",
         layout: "text-right",
     },
+    {
+        title: "",
+        description:
+            "One of the most-asked questions about the stars of television and movies is, how do they get that great smile? (Most assume it’s just good genes.) We can answer that question with two words: porcelain veneers. Name your favorite Hollywood actor or actress and there’s a good chance that they have porcelain veneers. Tom Cruise, Miley Cyrus, Hillary Duff, Zac Efron, George Clooney, Catherine Zeta-Jones, Ben Affleck, Emma Watson, Keith Urban, and Jennifer Garner are just a few examples of celebrities who have enhanced their smiles with porcelain veneers. Just do a Google search for “Tom Cruise before veneers” or and you’ll see how transformative porcelain veneers can be. Many of these wouldn’t be the Hollywood heartthrobs they became without a little help from porcelain veneers. Read on to learn what it’s like getting a set of custom porcelain veneers. It’s surprisingly fast and easy to achieve a Hollywood smile.",
+        image: {
+            src: "/img/xhpollywood.jpg",
+            alt: "",
+        },
+        titleColor: "",
+        layout: "text-right",
+        className: "my-12 px-4 md:px-8 lg:px-25",
+    },
 ];

@@ -7,22 +7,19 @@ export const headerData: HeaderProps = {
         {
             label: "Smile Makeover",
             anotation: "Exclusive",
-            // href: "/smile-makeover",
-            href: "#",
+            href: "/smile-makeover",
             active: true,
         },
         {
             label: "Cosmetic Dentistry",
             anotation: "Most Popular",
-            // href: "/cosmetic-dentistry",
-            href: "?",
+            href: "/cosmetic-dentistry",
         },
-        {
-            label: "General Dentistry",
-            // href: "/general-dentistry",
-            href: "#",
-        },
-        { label: "Discover", href: "#" },
-        { label: "Contact", href: "#" },
+        // {
+        //     label: "General Dentistry",
+        //     href: "/general-dentistry",
+        // },
+        // { label: "Discover", href: "#" },
+        { label: "Contact", href: "/contact" },
     ],
 };

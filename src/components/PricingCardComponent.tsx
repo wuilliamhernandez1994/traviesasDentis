@@ -107,21 +107,25 @@ export function PricingCard({
                     >
                         {buttons.map((button, index) =>
                             button.isPrimary ? (
-                                <button
+                                <a
                                     key={index}
-                                    className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full text-sm"
-                                    onClick={button.onClick}
+                                    className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full text-sm text-center"
+                                    href={button.href}
+                                    target={button.target}
+                                    rel={button.rel}
                                 >
                                     {button.text}
-                                </button>
+                                </a>
                             ) : (
-                                <button
+                                <a
                                     key={index}
-                                    className="border-gray-400 text-gray-600 px-4 py-2 rounded-full text-sm"
-                                    onClick={button.onClick}
+                                    className="border-gray-400 text-gray-600 px-4 py-2 rounded-full text-sm text-center border"
+                                    href={button.href}
+                                    target={button.target}
+                                    rel={button.rel}
                                 >
                                     {button.text}
-                                </button>
+                                </a>
                             )
                         )}
                     </div>

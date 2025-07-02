@@ -1,3 +1,20 @@
+import {
+    AboutSection,
+    HeroSection,
+    ServicesSection,
+    TestimonialsSection,
+} from "../components";
+
 export const CosmeticDentistryPage = () => {
-    return <div>CosmeticDentistryPage</div>;
+    return (
+        <>
+            <HeroSection />
+
+            <ServicesSection />
+
+            <AboutSection />
+
+            <TestimonialsSection />
+        </>
+    );
 };

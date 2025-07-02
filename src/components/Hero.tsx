@@ -35,7 +35,8 @@ export const Hero: React.FC<HeroProps> = ({
                                         key={idx}
                                         href={btn.href}
                                         className={classes}
-                                        onClick={btn.onClick} // Add onClick for links if defined
+                                        onClick={btn.onClick}
+                                        target="_blank"
                                     >
                                         {btn.text}
                                     </a>

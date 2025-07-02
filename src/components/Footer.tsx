@@ -6,6 +6,7 @@ import {
     FaTiktok,
     // FaPinterestP,
 } from "react-icons/fa";
+import { PiLinktreeLogoBold } from "react-icons/pi";
 import { SiGooglemaps } from "react-icons/si";
 import type { FooterData } from "../interfaces";
 
@@ -33,6 +34,8 @@ const SocialIcon = ({
             return <FaLinkedinIn {...iconProps} />;
         case "googlemaps":
             return <SiGooglemaps {...iconProps} />;
+        case "linktree":
+            return <PiLinktreeLogoBold {...iconProps} />;
         default:
             return null;
     }
@@ -72,6 +75,7 @@ export const Footer: React.FC<FooterProps> = ({ data }) => {
                                     href={social.url}
                                     className="text-pink-400 hover:text-pink-300 transition-colors"
                                     aria-label={social.name}
+                                    title={social.name}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

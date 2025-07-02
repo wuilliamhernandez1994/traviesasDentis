@@ -11,4 +11,5 @@ interface service {
     description: string;
     hasButton: boolean;
     buttonText: string;
+    emailUrl?: string;
 }

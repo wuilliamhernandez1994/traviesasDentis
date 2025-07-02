@@ -2,7 +2,7 @@ import type { SmileInfoProps } from "../interfaces";
 
 export const SmileInfo = ({ sections }: SmileInfoProps) => {
     return (
-        <div className="w-full max-w-5xl mx-auto px-6 py-12 bg-white">
+        <div className="w-full max-w-6xl mx-auto px-6 py-12 bg-white">
             {sections.map((section, index) => (
                 <div
                     key={section.id}

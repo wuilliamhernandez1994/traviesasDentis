@@ -11,17 +11,17 @@ export const SmileDesign = () => {
                         Smile Design in Just Two Visits?
                     </h1>
                     <p className="text-gray-600 text-base font-medium max-w-6xl mx-auto text-start">
-                        Yes! With the CG Smile Makeover, it’s entirely possible
-                        to have a completely new smile in just two visits. We
-                        have a master ceramist on staff and use state-of-the-art
-                        technology to ensure the process is not only quick, but
-                        also delivers stunning results.
+                        Yes! At Traviesas Dental Clinic, it’s entirely possible
+                        to achieve a completely new smile in just two visits. We
+                        have an expert ceramist on our team and use
+                        state-of-the-art technology to ensure the process is
+                        fast and delivers beautiful, natural results.
                     </p>
                 </div>
 
-                <div className="flex gap-12 mt-4 justify-center">
+                <div className="flex flex-col lg:flex-row gap-12 mt-4 justify-center">
                     {/* Left Column - Main Design */}
-                    <div className="text-center lg:text-right w-1/2">
+                    <div className="text-center lg:text-right w-full lg:w-1/2">
                         <div className="mb-6">
                             <p className="text-pink-500 text-xl lg:text-2xl font-light tracking-[0.3em] uppercase text-center">
                                 PORCELAIN VENEERS

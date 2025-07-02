@@ -1,28 +1,25 @@
 import type { Testimonial } from "../interfaces";
 
-export const testimonialsData: Testimonial[] = [
+export const testimonials: Testimonial[] = [
     {
-        id: "testimonial-1",
-        name: "Ana García",
-        quote: "Nunca pensé que mi sonrisa pudiera cambiar tanto en un solo día. ¡Estoy encantada con los resultados de One Day Smile!",
-        avatarUrl: "https://placehold.co/80x80/FFC0CB/FFFFFF?text=Ana",
+        id: "1",
+        name: "Sarah Johnson",
+        text: "The team at Travesas transformed my smile completely. I couldn't be happier with my dental implants!",
+        rating: 5,
+        image: "img/dentalProcedures/teeth-whitening.jpg",
     },
     {
-        id: "testimonial-2",
-        name: "Juan Pérez",
-        quote: "El equipo de One Day Smile es increíble. Profesionales, amables y los resultados son espectaculares. ¡Muy recomendado!",
-        avatarUrl: "https://placehold.co/80x80/FFC0CB/FFFFFF?text=Juan",
+        id: "2",
+        name: "Michael Chen",
+        text: "Professional, caring, and excellent results. My teeth whitening exceeded all expectations.",
+        rating: 5,
+        image: "img/dentalProcedures/teeth-whitening.jpg",
     },
     {
-        id: "testimonial-3",
-        name: "María López",
-        quote: "Mi confianza ha aumentado gracias a mi nueva sonrisa. El proceso fue rápido y sin dolor. ¡Gracias One Day Smile!",
-        avatarUrl: "https://placehold.co/80x80/FFC0CB/FFFFFF?text=Maria",
-    },
-    {
-        id: "testimonial-4",
-        name: "Carlos Ruiz",
-        quote: "Una experiencia fantástica de principio a fin. Me explicaron todo claramente y el resultado superó mis expectativas.",
-        avatarUrl: "https://placehold.co/80x80/FFC0CB/FFFFFF?text=Carlos",
+        id: "3",
+        name: "Emily Rodriguez",
+        text: "The clear aligners were perfect for my lifestyle. Amazing results in just 18 months!",
+        rating: 5,
+        image: "img/dentalProcedures/teeth-whitening.jpg",
     },
 ];

@@ -8,7 +8,9 @@ export interface PricingFeature {
 export interface PricingButton {
     text: string;
     isPrimary?: boolean;
-    onClick?: () => void;
+    href?: string;
+    target?: string;
+    rel?: string;
 }
 
 export interface PricingCardProps {

@@ -7,12 +7,12 @@ export const ProcedureCard = ({
     procedures,
 }: DentalProcedureProps) => {
     return (
-        <section className="py-12 px-4 max-w-7xl mx-auto">
+        <section className="py-12 px-4 max-w-6xl mx-auto">
             <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-light text-pink-500 mb-6">
+                <p className="text-xl md:text-2xl font-light text-pink-500 mb-6">
                     {title}
-                </h2>
-                <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                </p>
+                <p className="text-gray-600 max-w-6xl mx-auto leading-relaxed">
                     {description}
                 </p>
             </div>
@@ -20,20 +20,20 @@ export const ProcedureCard = ({
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {procedures.map((procedure) => (
                     <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
-                        <div className="p-6">
+                        <div className="flex flex-col p-6 h-full">
                             <h3 className="text-xl font-semibold text-pink-500 mb-4 text-center">
                                 {procedure.title}
                             </h3>
 
                             <div className="mb-4">
                                 <img
-                                    src={procedure.image || "/placeholder.svg"}
+                                    src={procedure.image}
                                     alt={procedure.title}
-                                    className="w-full h-48 object-cover rounded-lg"
+                                    className="h-55 w-full object-contain rounded-lg"
                                 />
                             </div>
 
-                            <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                            <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">
                                 {procedure.description}
                             </p>
 

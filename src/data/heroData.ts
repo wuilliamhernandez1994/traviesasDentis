@@ -15,12 +15,12 @@ export const heroData: HeroProps[] = [
         buttons: [
             {
                 text: "Request Information",
-                href: "#",
+                href: "https://mail.google.com/mail/?view=cm&fs=1&to=traviesasdental@gmail.com",
                 className:
                     "relative bg-white text-gray-800 hover:bg-[#df3884] hover:text-white text-md rounded-full shadow-lg  after:content-none sm:after:content-[''] after:absolute after:top-1/2 after:left-full after:transform after:-translate-y-1/2 after:w-[2px] after:h-4 after:bg-gray-300 after:mx-2 max-w-[250px]",
             },
             {
-                text: "Call (305) 826-8980",
+                text: "Call: 305 826-8980",
                 href: "tel:+13058268980",
                 className:
                     "bg-[#6c757d] text-white hover:bg-[#5a6268] rounded-full shadow-lg max-w-[250px]",
@@ -41,7 +41,7 @@ export const heroData: HeroProps[] = [
         buttons: [
             {
                 text: "Book Appointment",
-                href: "#",
+                href: "https://linktr.ee/traviesasdentalcare",
                 className:
                     "bg-white text-gray-800 hover:bg-[#df3884] hover:text-white hover:border-[#eb3588] hover:border text-md rounded-full shadow-lg border border-transparent max-w-[250px]",
             },
@@ -61,15 +61,14 @@ export const heroData: HeroProps[] = [
         buttons: [
             {
                 text: "Get Started",
-                href: "#",
+                href: "https://linktr.ee/traviesasdentalcare",
                 className:
                     "bg-white text-gray-800 hover:bg-[#df3884] hover:text-white hover:border-[#eb3588] hover:border text-md rounded-full shadow-lg border border-transparent py-3 max-w-[250px]",
             },
         ],
     },
     {
-        backgroundClass:
-            'bg-[url("/img/dentalServices/smile.jpg")] bg-[position:bottom_center]',
+        backgroundClass: 'bg-[url("/img/dentalServices/smile.jpg")]',
         wrapperClass: "py-5 lg:py-25",
         title: "Smile Makeover & Smile Design at Traviesas",
         titleClass:
@@ -81,7 +80,7 @@ export const heroData: HeroProps[] = [
         buttons: [
             {
                 text: "Request Information",
-                href: "#",
+                href: "https://mail.google.com/mail/?view=cm&fs=1&to=traviesasdental@gmail.com",
                 className:
                     "relative bg-white text-gray-800 hover:bg-[#df3884] hover:text-white text-md rounded-full shadow-lg  after:content-none sm:after:content-[''] after:absolute after:top-1/2 after:left-full after:transform after:-translate-y-1/2 after:w-[2px] after:h-4 after:bg-gray-300 after:mx-2 max-w-[250px]",
             },
@@ -107,10 +106,41 @@ export const heroData: HeroProps[] = [
         buttons: [
             {
                 text: "Book Online Consultation",
-                href: "#",
+                href: "https://linktr.ee/traviesasdentalcare",
                 className:
                     "bg-[#df3884] text-white hover:bg-white hover:text-gray-800 text-md rounded-full shadow-lg border border-transparent py-3 w-fit",
             },
         ],
+    },
+    {
+        backgroundClass:
+            "bg-[linear-gradient(to right,#ACB5BC,#8e99a1,#acbecc,#7c99af)]",
+        wrapperClass: "py-5 lg:py-20",
+        title: "Start Your Smile Transformation",
+        titleClass:
+            "text-xl lg:text-7xl font-light max-w-3/5 mx-auto tracking-tight text-white mb-4 text-shadow-lg",
+        subtitle:
+            "The first step to getting the smile you've always wanted starts with a consultation. Call Traviesas Dental today and ask us about the Traviesas Dental Care.",
+        subtitleClass:
+            "block max-w-10/12 lg:max-w-10/12 mt-4 mx-auto text-xl text-gray-200 font-light leading-relaxed",
+        buttons: [
+            {
+                text: "Ask About Traviesas Dental Care",
+                href: "https://linktr.ee/traviesasdentalcare",
+                className:
+                    "bg-[#df3884] text-white hover:bg-white hover:text-gray-800 text-md rounded-full shadow-lg border border-transparent py-3 w-fit",
+            },
+        ],
+    },
+    {
+        backgroundClass:
+            "bg-[url('img/dental_tehcnitian.jpg')] bg-[position:bottom_center] min-h-fit",
+        wrapperClass: "py-5 lg:py-20",
+        title: "Contact us",
+        titleClass:
+            "text-xl lg:text-6xl font-light max-w-3/5 mx-auto tracking-tight text-white mb-4",
+        subtitle: "Traviesas Dental Clinic is located at Hialeah, FL",
+        subtitleClass:
+            "block max-w-10/12 lg:max-w-7/12 mt-4 mx-auto text-xl text-gray-200 font-light leading-relaxed",
     },
 ];

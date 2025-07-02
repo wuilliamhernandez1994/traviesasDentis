@@ -1,4 +1,6 @@
+export * from "./contactCosmeticData";
 export * from "./contactData";
+export * from "./contactMedicalData";
 export * from "./contentSectionsData";
 export * from "./dentalProceduresData";
 export * from "./dentalPromoData";
@@ -7,7 +9,9 @@ export * from "./headerData";
 export * from "./heroData";
 export * from "./index";
 export * from "./pricingData";
+export * from "./serviceCosmeticData";
 export * from "./serviceData";
 export * from "./smileInfoData";
 export * from "./smileMakeoverData";
+export * from "./smileMakeoverFAQData";
 export * from "./testimonialsData";

@@ -1,98 +1,147 @@
 import type { DentalPricingData } from "../interfaces";
 
 export const dentalPricingData: DentalPricingData = {
-    title: "Cosmetic Dentistry Prices in Hialeah",
+    title: "Permanent Dental Offers in Hialeah",
     description:
-        "Absolutely! With the Traviesas Smile Makeover, you can achieve a brand new smile in just two visits. Our in-house master ceramist and advanced technology make the process fast and deliver beautiful, natural-looking results.",
+        "Take care of your oral health with our permanent offers. We provide comprehensive dental care, including advanced surgeries and dental implants, with special discounts for referred patients.",
     pricingCards: [
         {
-            title: "Traviesas Smile Makeover / One-Day Veneers",
+            title: "Complete Oral Exam, Full-Mouth X-rays & Cleaning",
             description:
-                "ONE-DAY, minimally invasive or no prep required, lasts up to 15-25 years. Most cases completed in 1-2 days.",
-            price: "$243",
-            priceUnit: "/ month",
+                "Thorough maintenance of your oral health. Includes a comprehensive dental exam, full-mouth x-rays, and professional cleaning.",
+            price: "$100",
+            priceUnit: "",
             isFeatured: true,
             features: [
-                { text: "Upper Starts at $5,999", isIncluded: true },
-                { text: "Lower Starts at $5,999", isIncluded: true },
-                { text: "Combined Starts at $9,999", isIncluded: true },
+                { text: "Comprehensive oral exam", isIncluded: true },
+                { text: "Full-mouth x-rays", isIncluded: true },
+                { text: "Professional dental cleaning", isIncluded: true },
                 {
                     text: "What's Included",
                     isInfoLink: true,
                     detailedInfo: [
-                        "10 (upper) porcelain veneers",
-                        "10 (lower) porcelain veneers",
-                        "Initial exam",
-                        "X-rays and photos with our in-house master ceramist",
+                        "Detailed oral health assessment",
+                        "All necessary x-rays",
+                        "Gentle and thorough cleaning",
                     ],
                 },
             ],
-            buttons: [{ text: "Request Information", isPrimary: true }],
+            buttons: [
+                {
+                    text: "Request Information",
+                    isPrimary: true,
+                    href: "https://mail.google.com/mail/?view=cm&fs=1&to=traviesasdental@gmail.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                },
+            ],
         },
         {
-            title: "DENTAL IMPLANTS",
-            price: "Starts at $2,500",
-            priceUnit: "/ each",
+            title: "Dental Extractions with Exam & X-ray",
+            price: "From $150",
+            priceUnit: "",
             features: [
-                { text: "Titanium Implant", isIncluded: true },
+                { text: "Precise dental extractions", isIncluded: true },
                 {
-                    text: "Brand: Sweden Martina (Italian Implants)",
+                    text: "Includes oral exam and x-ray",
                     isIncluded: true,
                 },
                 {
                     text: "What's Included",
                     isInfoLink: true,
                     detailedInfo: [
-                        "Placement of the implant and healing abutment, x-rays and photos",
-                        "Immediate load available for an extra $400, so you can leave with a tooth in place the same day for $1900 total",
-                        "A permanent crown will be placed at a later appointment",
+                        "Professional extraction procedure",
+                        "Comprehensive oral exam",
+                        "X-ray for accurate diagnosis",
                     ],
                 },
             ],
             buttons: [
-                { text: "Request Information", isPrimary: true },
-                { text: "Dental Implants", isPrimary: false },
+                {
+                    text: "Request Information",
+                    isPrimary: true,
+                    href: "https://mail.google.com/mail/?view=cm&fs=1&to=traviesasdental@gmail.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                },
+                {
+                    text: "Dental Extractions",
+                    isPrimary: false,
+                    href: "#",
+                },
             ],
         },
         {
-            title: "CROWNS",
-            price: "Starts at $785",
-            priceUnit: "/ each",
+            title: "Dental Implants",
+            price: "$899",
+            priceUnit: "/ implant",
             features: [
-                { text: "e-Max, Porcelain, Zirconia Crowns", isIncluded: true },
-                { text: "Master Ceramist", isIncluded: true },
+                {
+                    text: "Direct placement, even same day after extraction",
+                    isIncluded: true,
+                },
+                { text: "Over 95% success rate", isIncluded: true },
                 {
                     text: "What's Included",
                     isInfoLink: true,
                     detailedInfo: [
-                        "Tooth preparation and crown placement",
-                        "Implant Crown is $800",
-                        "Work done by our Master Ceramist",
-                        "X-rays and photos included",
+                        "Implant placement procedure",
+                        "Immediate placement available",
+                        "Multiple implants in one session possible",
+                        "Special offers for 3 or more implants",
                     ],
                 },
             ],
             buttons: [
-                { text: "Request Information", isPrimary: true },
-                { text: "Crowns Information", isPrimary: false },
+                {
+                    text: "Request Information",
+                    isPrimary: true,
+                    href: "https://mail.google.com/mail/?view=cm&fs=1&to=traviesasdental@gmail.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                },
+                {
+                    text: "Implant Details",
+                    isPrimary: false,
+                    href: "#",
+                },
             ],
         },
         {
-            title: "BRIDGES",
+            title: "Implant Crown Rehabilitation",
             description:
-                "Starts at $665 per unit. A minimum of 3 teeth is required, so a typical bridge solution for a missing space starts at $2,000.",
-            price: "Starts at $665",
-            priceUnit: "/ each",
-            buttons: [{ text: "Request Information", isPrimary: true }],
+                "Restore your smile with a crown over your dental implant. High-quality materials and expert craftsmanship.",
+            price: "$799",
+            priceUnit: "/ crown",
+            buttons: [
+                {
+                    text: "Request Information",
+                    isPrimary: true,
+                    href: "https://mail.google.com/mail/?view=cm&fs=1&to=traviesasdental@gmail.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                },
+            ],
         },
         {
-            title: "CLEAR ALIGNERS",
-            description: "Starting at $103 a month",
-            price: "Starts at $103 a month",
-            priceUnit: "/ month",
+            title: "Special Discounts",
+            description:
+                "15% discount on all treatments for referred patients.",
+            price: "15% OFF",
+            priceUnit: "for referrals",
             buttons: [
-                { text: "Request Information", isPrimary: true },
-                { text: "Clear Aligners", isPrimary: false },
+                {
+                    text: "Request Information",
+                    isPrimary: true,
+                    href: "https://mail.google.com/mail/?view=cm&fs=1&to=traviesasdental@gmail.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                },
+                {
+                    text: "Referral Program",
+                    isPrimary: false,
+                    href: "#",
+                },
             ],
         },
     ],
@@ -101,49 +150,57 @@ export const dentalPricingData: DentalPricingData = {
 export const smileDesignData: DentalPricingData = {
     pricingCards: [
         {
-            title: "COMPARE",
-            description: "Hialeah Average Prices",
-            price: "$419",
-            priceUnit: "/ month",
+            title: "Other Dental Treatments",
+            description:
+                "We offer a wide range of treatments including veneers, crowns, bridges, teeth whitening, botox, dentures, and orthodontic treatments.",
+            price: "Ask for pricing",
+            priceUnit: "",
             features: [
                 {
-                    text: "Traviesas Price",
-                    detailedInfo: ["$131/ month"],
+                    text: "Veneers, crowns, bridges, whitening, botox, dentures, orthodontics",
+                    detailedInfo: [
+                        "Custom treatment plans",
+                        "High-quality materials",
+                        "Expert dental team",
+                    ],
                 },
             ],
         },
         {
-            title: "Traviesas Smile Makeover Price",
-            price: "$131",
-            priceUnit: "/ each",
+            title: "Oral & Periodontal Surgery",
+            price: "Ask for pricing",
+            priceUnit: "",
             features: [
-                { text: "Upper Starts at $2,999", isIncluded: true },
                 {
-                    text: "Lower Starts at $2,999",
+                    text: "Expert oral and periodontal surgeries",
                     isIncluded: true,
                 },
                 {
-                    text: "Combined $4,999 (Done in 3 Visits - No Hidden Fees)",
+                    text: "Direct implant placement, even same day after extraction",
                     isIncluded: true,
                 },
                 {
-                    text: "10 (upper) porcelain veneers",
+                    text: "Multiple implants in one session",
                     isIncluded: true,
                 },
                 {
-                    text: "10 (lower) porcelain veneers",
+                    text: "Special offers for 3 or more implants",
                     isIncluded: true,
                 },
                 {
-                    text: "Initial exam",
+                    text: "15% discount for referred patients",
                     isIncluded: true,
                 },
                 {
-                    text: "X-rays and photos with our in-house master ceramist",
+                    text: "Comprehensive post-surgery care",
                     isIncluded: true,
                 },
                 {
-                    text: "Completed in 3 Visits",
+                    text: "Advanced technology and techniques",
+                    isIncluded: true,
+                },
+                {
+                    text: "Personalized attention for every patient",
                     isIncluded: true,
                 },
             ],

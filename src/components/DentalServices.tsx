@@ -36,12 +36,13 @@ export const DentalServices = ({
                             {service.description}
                         </p>
                         {service.hasButton && (
-                            <button
-                                onClick={() => {}}
-                                className="bg-pink-600 text-white py-2 px-6 mb-8 rounded-md text-lg font-medium hover:bg-pink-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-opacity-50"
+                            <a
+                                href={service.emailUrl}
+                                target="_blank"
+                                className="bg-pink-600 text-white py-2 px-6 mb-8 rounded-md text-lg font-medium hover:bg-pink-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-opacity-50 inline-block"
                             >
                                 {service.buttonText || "Ask a Question"}
-                            </button>
+                            </a>
                         )}
                     </div>
                 </div>

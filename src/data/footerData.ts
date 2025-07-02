@@ -24,6 +24,11 @@ export const footerData: FooterData = {
             url: "https://www.tiktok.com/@traviesasdental?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExRXMza0Y3NTAweDFOb0w1UgEelhv7kjrkYP6HJyeEP9wW6jkZB9oDsdXSd4Ma63PXsZFB_kY5IhosSomhL78_aem_Neslynjj5QoCt5lX3jUeug",
             icon: "tiktok",
         },
+        {
+            name: "Linktree",
+            url: "https://linktr.ee/traviesasdentalcare?fbclid=PAZXh0bgNhZW0CMTEAAae4LaXLcF0h0JYaGqAKFeiId5P2lUIcVOjgnWy2A1O-tp-sX9OXC3teT2aoUw_aem_T9q4aI0d_lX_ycZgqD5u8Q",
+            icon: "linktree",
+        },
         // {
         //     name: "LinkedIn",
         //     url: "https://www.linkedin.com/company/traviesasdentalcare/",
@@ -55,23 +60,23 @@ export const footerData: FooterData = {
     legalLinks: [
         {
             name: "Legal Information",
-            url: "/legal-questions",
+            url: "#",
         },
         {
             name: "HIPAA Privacy Notice",
-            url: "/hipaa-privacy",
+            url: "#",
         },
         {
             name: "Disclaimer",
-            url: "/disclaimer",
+            url: "#",
         },
         {
             name: "Privacy Policy",
-            url: "/privacy-policy",
+            url: "#",
         },
         {
             name: "Payment & Refund Policy",
-            url: "/payment-refund-policy",
+            url: "#",
         },
     ],
     copyright: "Copyright 2025",

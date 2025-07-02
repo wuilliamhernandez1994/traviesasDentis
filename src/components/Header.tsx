@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom"; // Agrega esta línea
 import type { HeaderProps } from "../interfaces";
 
 export const Header = ({ logo, navOptions }: HeaderProps) => {
@@ -9,9 +10,18 @@ export const Header = ({ logo, navOptions }: HeaderProps) => {
             <div className="container mx-auto flex items-center justify-between flex-wrap">
                 {/* Logo Section */}
                 <div className="flex items-center flex-shrink-0 text-gray-800 mr-6">
-                    {logo ? (
-                        <img src={logo} alt="Logo" className="h-12 w-auto" />
-                    ) : null}
+                    <Link
+                        to="/"
+                        className="flex items-center flex-shrink-0 text-gray-800 mr-6"
+                    >
+                        {logo ? (
+                            <img
+                                src={logo}
+                                alt="Logo"
+                                className="h-12 w-auto"
+                            />
+                        ) : null}
+                    </Link>
                 </div>
 
                 {/* Mobile menu button */}
@@ -34,17 +44,23 @@ export const Header = ({ logo, navOptions }: HeaderProps) => {
 
                 {/* Navigation links */}
                 <nav
-                    className={`${
-                        isMenuOpen ? "block" : "hidden"
-                    } w-full flex-grow lg:flex lg:items-center lg:w-auto`}
+                    className={`
+        w-full flex-grow lg:flex lg:items-center lg:w-auto
+        transition-all duration-500 ease-in-out overflow-hidden
+        ${
+            isMenuOpen
+                ? "max-h-screen opacity-100"
+                : "max-h-0 opacity-0 lg:max-h-full lg:opacity-100"
+        }
+    `}
                 >
-                    <div className="text-md lg:flex-grow lg:flex lg:justify-center items-end">
+                    <div className="text-md lg:flex-grow lg:flex lg:justify-center items-end gap-10">
                         {navOptions.map((option, idx) => (
-                            <a
+                            <Link
                                 key={idx}
-                                href={option.href}
+                                to={option.href}
                                 className={
-                                    "flex flex-col items-end py-2 mt-4 lg:mt-0 mr-4 transition duration-300 ease-in-out text-[16px] font-bold text-[#60656c] hover:text-gray-800"
+                                    "flex flex-col items-end py-2 mt-4 lg:mt-0 transition duration-300 ease-in-out text-[16px] font-bold text-[#60656c] hover:text-gray-800"
                                 }
                             >
                                 {option.anotation && (
@@ -53,7 +69,7 @@ export const Header = ({ logo, navOptions }: HeaderProps) => {
                                     </span>
                                 )}
                                 {option.label}
-                            </a>
+                            </Link>
                         ))}
                     </div>
                 </nav>
