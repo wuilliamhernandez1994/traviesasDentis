@@ -161,7 +161,7 @@ export const SmileDesign = () => {
                                                 <button
                                                     key={index}
                                                     className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full text-sm"
-                                                    onClick={button.onClick}
+                                                    // onClick={button.onClick}
                                                 >
                                                     {button.text}
                                                 </button>
@@ -169,7 +169,7 @@ export const SmileDesign = () => {
                                                 <button
                                                     key={index}
                                                     className="border-gray-400 text-gray-600 px-4 py-2 rounded-full text-sm"
-                                                    onClick={button.onClick}
+                                                    // onClick={button.onClick}
                                                 >
                                                     {button.text}
                                                 </button>
