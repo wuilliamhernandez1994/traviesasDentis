@@ -7,7 +7,7 @@ export const dentalPromoData: DentalPromoData = {
     description: [
         "At Traviesas in Hialeah, we share a passion for creating gorgeous smiles. Our practice is the home of the Traviesas Dental Care, a multidisciplinary suite of dental services that help bring out the best in our patients' smiles (in just two visits).",
         "In addition to our cosmetic services, Traviesas also offers preventive dentistry, restorations, endodontic care, general dentistry, and orthodontics.",
-        "Visit us at 1200 W 64 Ter, Hialeah, FL 33012.",
+        "Visit us at 508 E 49th St Hialeah, FL 33013, United States.",
     ],
     mainText: {
         primary: "SMILE",
